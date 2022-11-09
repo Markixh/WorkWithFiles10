@@ -24,6 +24,12 @@
             Console.Write($"{a} + {b} = : {calculator.Sum(a, b)}");
         }
 
+        /// <summary>
+        /// Проверка корректности ввода числа
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="result"></param>
+        /// <returns></returns>
         static bool isCorrect(string str, out int result)
         {
             try
